@@ -1,4 +1,4 @@
-# Bubble Pop Challenge
+ Bubble Pop Challenge
 
 **Course:** CC104 – Data Structures and Algorithms (Course Term Project, Project 5)
 **Section:** BSIT WMT 2-2
