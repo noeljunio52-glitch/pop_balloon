@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bubble Pop Challenge | CC104 Game Project</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="game-card">
+
+    <header>
+      <h1>Bubble Pop Challenge</h1>
+      <p class="subtitle">Pop the bubbles before they get too big! Three bursts and the game is over.</p>
+    </header>
+
+    <!-- Score and lives -->
+    <section class="stats stats-2">
+      <div class="stat-box"><div class="stat-label">Score</div><div class="stat-value" id="score">0</div></div>
+      <div class="stat-box"><div class="stat-label">Lives</div><div class="stat-value lives" id="lives" aria-live="polite">&#9829;&#9829;&#9829;</div></div>
+    </section>
+
+    <div id="message" class="message info" role="status" aria-live="polite"></div>
+
+    <!-- Bounded game area: bubbles are created here by js/game.js -->
+    <div id="area" class="area" aria-label="Bubble game area"></div>
+
+    <div class="buttons">
+      <button type="button" id="reset-btn" class="btn btn-primary">Reset</button>
+    </div>
+
+  </main>
+
+  <script src="js/game.js"></script>
+</body>
+</html>
